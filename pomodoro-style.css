@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+#timer {
+    font-family: "Montserrat", "Arial";
+    font-size: 20px;
+    background-image: radial-gradient(circle at 100%, #2e3440, #434c5e, #4c566a);
+    color: whitesmoke;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    border: solid #d8dee9 10px;
+}
+
+#progress-bar {
+    width: 70px; 
+    height: 70px; 
+    border: 1px dashed #000;
+}
+
+#phase {
+    padding-top: 75px;
+}
+
+#counter {
+    font-family: "Major Mono Display", "Arial";
+    padding-top: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+button {
+    padding-top: 10px;
+    color: whitesmoke;
+    border: none;
+    background-color: transparent;
+    font-size: 15px; 
+}
